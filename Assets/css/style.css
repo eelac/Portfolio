@@ -1,5 +1,5 @@
 /* CSS for all pages */
-.background {
+.background, .footer-copyright {
   background-color: #2F2FA2;
 }
 
@@ -12,8 +12,12 @@
   text-align: center;
 }
 
-.footer-copyright {
-  background-color: #2F2FA2;
+.navbar {
+  background-color: #55BCC9;
+}
+
+.navbar-brand, .nav-link {
+  color: black;
 }
 
 /* CSS for index container */
