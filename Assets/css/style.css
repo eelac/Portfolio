@@ -1,6 +1,6 @@
 /* CSS for all pages */
-body {
-  background-image: url("../imgs/ignasi_pattern_s.png");
+.background {
+  background-color: #2F2FA2;
 }
 
 .footer {
@@ -10,6 +10,10 @@ body {
   background-color: grey;
   color: black;
   text-align: center;
+}
+
+.footer-copyright {
+  background-color: #2F2FA2;
 }
 
 /* CSS for index container */
@@ -66,7 +70,7 @@ input[type="submit"]:hover {
 .portfolio-title {
     font-size: 48px;
     font-weight: bold;
-    color: #005bf8;
+    color: lightgrey;
     padding-top: 10px;
 }
 
