@@ -1,6 +1,7 @@
 /* CSS for all pages */
-.background, .footer-copyright {
-  background-color: #2F2FA2;
+.background,
+.footer-copyright {
+  background-color: #2f2fa2;
 }
 
 .footer {
@@ -13,10 +14,11 @@
 }
 
 .navbar {
-  background-color: #55BCC9;
+  background-color: #55bcc9;
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand,
+.nav-link {
   color: black;
 }
 
@@ -24,7 +26,7 @@
 .card-title {
   font-size: 24px;
   font-weight: bold;
-  color: #005bf8;
+  color: black;
 }
 
 .container {
@@ -33,9 +35,9 @@
 
 /* CSS for contact container */
 .contact-title {
-    font-size: 36px;
-    font-weight: bold;
-    color: #005bf8;
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
 }
 input[type="text"],
 select,
@@ -72,10 +74,10 @@ input[type="submit"]:hover {
 /* CSS for portfolio container */
 
 .portfolio-title {
-    font-size: 48px;
-    font-weight: bold;
-    color: lightgrey;
-    padding-top: 10px;
+  font-size: 48px;
+  font-weight: bold;
+  color: lightgrey;
+  padding-top: 10px;
 }
 
 * {
@@ -96,6 +98,11 @@ body {
 h1 {
   font-size: 50px;
   word-break: break-all;
+}
+
+h3 {
+  color: black;
+  font-size: 26px;
 }
 
 .row {
