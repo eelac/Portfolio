@@ -8,3 +8,5 @@ Contact is for people to contact me if they have any questions or comments
 Styles are connected to all the sheets with a common background between all of them
 
 https://eelac.github.io/Homework2-Portfolio/
+
+![Screenshot](Images/Portfolio.png)
