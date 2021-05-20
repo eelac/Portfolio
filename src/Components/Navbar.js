@@ -27,7 +27,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                About Me
+                Intro
               </Link>
             </li>
             <li className="nav-item">
