@@ -1,18 +1,48 @@
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 6vw;
+    line-height: .1vh;
+    color: white;
+}
+
+p {
+    font-size: 1.1vw;
+}
+
+.background {
+    background-color: #006ee6;
+}
+
 .logo_html {
-    width: 10%;
-    padding-right: 2%;
+  width: 9.7%;
+  padding-left: 2%;
+  padding-right: 8%;
 }
 
 .logo_css {
-    width: 7.1%;
-    padding-right: 3%;
+  width: 9%;
+  padding-right: 8%;
 }
 
 .logo_js {
-    width: 8.8%;
-    padding-right: 3%
+  width: 11%;
+  padding-right: 8%;
 }
 
 .logo_node {
-    width: 7%
+  width: 11%;
+  padding-right: 8%;
+}
+
+.logo_react {
+  width: 10%;
+  padding-right: 6%;
+}
+
+.logo_mongo {
+    width: 4.5%;
+    padding-left: 2%;
 }
