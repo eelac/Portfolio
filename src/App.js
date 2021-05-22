@@ -12,24 +12,12 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Intro id="section1" />
-        <AboutMe title="Section 2" id="section2" />
+        <AboutMe id="section2" />
         <Section
           title="Section 3"
           subtitle={dummyText}
           dark={false}
           id="section3"
-        />
-        <Section
-          title="Section 4"
-          subtitle={dummyText}
-          dark={true}
-          id="section4"
-        />
-        <Section
-          title="Section 5"
-          subtitle={dummyText}
-          dark={false}
-          id="section5"
         />
       </div>
     );

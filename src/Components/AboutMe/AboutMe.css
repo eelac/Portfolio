@@ -4,6 +4,26 @@
 
 .h1About {
   text-align: center;
-  font-size: 3vw;
-  line-height: 3vh;
+  font-size: 3em;
+  line-height: 20%;
+}
+
+@media screen and (max-width: 1400px) {
+    .profilePic {
+        display: none;
+    }
+    
+}
+
+.profilePic {
+    float:right;
+    width: 25rem;
+}
+
+.text {
+    text-align: center;
+}
+
+.textHeader {
+    font-weight: bold;
 }

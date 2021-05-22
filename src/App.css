@@ -1,8 +1,5 @@
-:root {
-  --off-white: #fafafa;
-}
 .nav {
-  background-color: var(--off-white);
+  background-color: white;
   position: sticky;
   top: 0px;
   width: 100%;
@@ -47,7 +44,7 @@
 }
 
 .section-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px;
 }
