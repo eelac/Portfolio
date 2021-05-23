@@ -9,15 +9,15 @@
 }
 
 .pIntro {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .h1Intro {
-  font-size: 10em;
+  font-size: 10rem;
 }
 
 .icons {
-  font-size: 3em;
+  font-size: 3rem;
   width: 80%;
   margin: auto;
   display: flex;

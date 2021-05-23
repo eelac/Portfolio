@@ -5,25 +5,25 @@
 .h1About {
   text-align: center;
   font-weight: 500;
-  font-size: 3.3em;
+  font-size: 3.5rem;
   padding-top: 13%;
   padding-bottom: 2%;
 }
 
 .profile {
   float: right;
-  font-size: 25em;
+  font-size: 25rem;
 }
 
 .aboutMe,
 .skills {
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 .textHeader {
   font-weight: 500;
-  font-size: 1.3em;
+  font-size: 1.8rem;
 }
 
 @media screen and (max-width: 1000px) {
