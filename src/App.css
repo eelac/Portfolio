@@ -5,25 +5,19 @@
 
 .GithubIcon {
   font-size: 2rem;
-  min-width: 60px;
+  min-width: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.navbar-brand {
+  padding: 5rem;
   cursor: pointer;
 }
 
-.navHeader {
-  display: inline-block;
-  color: #444444;
-  border-style: hidden;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.navHeader:hover {
+.navbar-brand > .active {
   color: black;
   font-weight: 500;
-}
-
-.navHeader > .active {
-  color: black;
   border-style: hidden;
   padding: 2px 5px;
   border-radius: 10px;
