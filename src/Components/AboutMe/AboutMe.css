@@ -1,29 +1,27 @@
 .backgroundAbout {
-  background-color: #3381d6;
+  background-color: #4d91db;
 }
 
 .h1About {
   text-align: center;
-  font-size: 3em;
-  line-height: 20%;
+  font-weight: 500;
+  font-size: 3.3em;
+  padding-top: 13%;
+  padding-bottom: 2%;
 }
 
-@media screen and (max-width: 1400px) {
-    .profilePic {
-        display: none;
-    }
-    
+.profile {
+  float: right;
+  font-size: 25em;
 }
 
-.profilePic {
-    float:right;
-    width: 25rem;
-}
-
-.text {
-    text-align: center;
+.aboutMe,
+.skills {
+  text-align: center;
+  font-size: 1.1em;
 }
 
 .textHeader {
-    font-weight: bold;
+  font-weight: 500;
+  font-size: 1.3em;
 }

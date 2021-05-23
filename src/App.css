@@ -1,54 +1,42 @@
-.nav {
-  background-color: white;
-  position: sticky;
-  top: 0px;
+.navbar {
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.25);
   width: 100%;
-  height: 80px;
-  z-index: 1000;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
 
-.nav-logo {
-  height: 60px;
-  width: 60px;
-}
-
-.nav-logo:hover {
+.GithubIcon {
+  font-size: 2em;
+  min-width: 60px;
   cursor: pointer;
 }
 
-.nav .nav-content {
-  max-width: 900px;
-  padding: 0rem 3rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+.navHeader {
+  display: inline-block;
+  color: #444444;
+  border-style: hidden;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.nav-item {
-  display: inline;
-  margin-left: 2rem;
-  color: #333;
-}
-
-.nav-item:hover {
+.navHeader:hover {
   color: black;
-  cursor: pointer;
+  font-weight: 500;
+}
+
+.navHeader > .active {
+  color: black;
+  border-style: hidden;
+  padding: 2px 5px;
+  border-radius: 10px;
+  background-color: #cce0f5;
 }
 
 .section-dark {
-  background: #333;
+  background: #444444;
   color: white;
 }
 
 .section-content {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
-}
-
-.nav-item > .active {
-  border-bottom: 1px solid #333;
 }
