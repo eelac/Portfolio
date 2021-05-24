@@ -24,7 +24,7 @@ export default class Navbar extends Component {
             to="section2"
             spy={true}
             smooth={true}
-            offset={-55}
+            offset={-50}
             duration={150}
             style={{ marginRight: "2rem" }}
           >
@@ -35,7 +35,7 @@ export default class Navbar extends Component {
             to="section3"
             spy={true}
             smooth={true}
-            offset={-55}
+            offset={-45}
             duration={150}
           >
             Projects
