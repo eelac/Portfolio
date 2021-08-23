@@ -13,6 +13,9 @@
 .profile {
   float: right;
   font-size: 25rem;
+  width: 40%;
+  height: 40%;
+  border: 5px solid black;
 }
 
 .aboutMe,

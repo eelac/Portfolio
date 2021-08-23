@@ -1,15 +1,14 @@
 import React from "react";
 import aboutMeText from "./AboutMeText";
 import "./AboutMe.css";
-import { faUserAlt } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import profile from "../Images/Profile.jpg";
 
 export default function AboutMe({ id }) {
   return (
     <div className="backgroundAbout">
       <div className="section-content" id={id}>
         <h1 className="h1About">About Me</h1>
-        <FontAwesomeIcon icon={faUserAlt} className="profile" />
+        <img src={profile} className="profile" alt="profile"/>
         <p className="aboutMe">{aboutMeText}</p>
         <hr style={{ height: "2px", color: "black" }} />
         <div className="skills">
