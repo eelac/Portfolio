@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 
 export default class Navbar extends Component {
   render() {
@@ -43,6 +44,15 @@ export default class Navbar extends Component {
         </div>
         <div className="form-inline">
           <div
+            onClick={() =>
+              window.open("https://docs.google.com/document/d/1rRqiVPEn4KLUxdXwWwPF807MjmMOuEHkeX_SKV3URI4/edit?usp=sharing", "_blank")
+            }
+          >
+            <FontAwesomeIcon icon={faFileAlt} className="ResumeIcon" />
+          </div>
+        </div>
+        <div>
+        <div
             onClick={() =>
               window.open("https://www.linkedin.com/in/eltonlac/", "_blank")
             }

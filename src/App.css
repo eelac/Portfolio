@@ -4,7 +4,9 @@
   height: 50px;
 }
 
-.GithubIcon, .LinkedInIcon {
+.ResumeIcon,
+.LinkedInIcon,
+.GithubIcon {
   font-size: 2rem;
   min-width: 50px;
   cursor: pointer;
