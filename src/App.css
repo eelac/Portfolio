@@ -4,7 +4,7 @@
   height: 50px;
 }
 
-.GithubIcon {
+.GithubIcon, .LinkedInIcon {
   font-size: 2rem;
   min-width: 50px;
   cursor: pointer;
@@ -34,4 +34,8 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
+}
+
+.form-inline {
+  margin-left: auto;
 }

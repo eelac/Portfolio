@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default class Navbar extends Component {
   render() {
@@ -42,6 +42,15 @@ export default class Navbar extends Component {
           </Link>
         </div>
         <div className="form-inline">
+          <div
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/eltonlac/", "_blank")
+            }
+          >
+            <FontAwesomeIcon icon={faLinkedin} className="LinkedInIcon" />
+          </div>
+        </div>
+        <div>
           <div
             onClick={() => window.open("https://github.com/eelac", "_blank")}
           >

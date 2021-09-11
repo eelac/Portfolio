@@ -8,7 +8,7 @@ export default function AboutMe({ id }) {
     <div className="backgroundAbout">
       <div className="section-content" id={id}>
         <h1 className="h1About">About Me</h1>
-        <img src={profile} className="profile" alt="profile"/>
+        <img src={profile} className="profile" alt="profile" />
         <p className="aboutMe">{aboutMeText}</p>
         <hr style={{ height: "2px", color: "black" }} />
         <div className="skills">
