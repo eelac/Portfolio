@@ -45,14 +45,17 @@ export default class Navbar extends Component {
         <div className="form-inline">
           <div
             onClick={() =>
-              window.open("https://docs.google.com/document/d/1rRqiVPEn4KLUxdXwWwPF807MjmMOuEHkeX_SKV3URI4/edit?usp=sharing", "_blank")
+              window.open(
+                "https://docs.google.com/document/d/1rRqiVPEn4KLUxdXwWwPF807MjmMOuEHkeX_SKV3URI4/edit?usp=sharing",
+                "_blank"
+              )
             }
           >
             <FontAwesomeIcon icon={faFileAlt} className="ResumeIcon" />
           </div>
         </div>
         <div>
-        <div
+          <div
             onClick={() =>
               window.open("https://www.linkedin.com/in/eltonlac/", "_blank")
             }
