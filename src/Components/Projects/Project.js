@@ -10,7 +10,7 @@ export default function Project({ id }) {
     <div className="backgroundProject">
       <div className="section-content" id={id}>
         <h1 className="title">Projects</h1>
-        <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="row">
           <div className="col">
             <Card1 />
           </div>

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import WeatherDashboard from "../Images/WeatherDashboard.png";
+import "./Project.css";
 
 export default class Card1 extends Component {
   render() {
     return (
-      <div className="card" style={{ width: "20rem" }}>
+      <div className="card">
         <img src={WeatherDashboard} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Weather Dashboard</h5>

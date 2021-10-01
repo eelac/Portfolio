@@ -3,17 +3,25 @@
 }
 
 .pIntro,
-.h1Intro {
+.h1Intro,
+.pInfo {
   text-align: center;
   font-weight: 500;
 }
 
 .pIntro {
   font-size: 2rem;
+  padding-top: 18%;
 }
 
 .h1Intro {
   font-size: 10rem;
+}
+
+.pInfo {
+  font-size: 2rem;
+  padding-top: 4%;
+  padding-bottom: 5%;
 }
 
 .icons {
@@ -22,4 +30,5 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 15%;
 }

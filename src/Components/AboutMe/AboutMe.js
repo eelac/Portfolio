@@ -10,28 +10,14 @@ export default function AboutMe({ id }) {
         <h1 className="h1About">About Me</h1>
         <img src={profile} className="profile" alt="profile" />
         <p className="aboutMe">{aboutMeText}</p>
-        <hr style={{ height: "2px", color: "black" }} />
+        <hr className="hrLong" />
         <div className="skills">
           <p className="textHeader text">Skills</p>
           <p className="textHeader text">Languages</p>
-          <hr
-            style={{
-              height: "2px",
-              color: "black",
-              width: "30%",
-              margin: "auto",
-            }}
-          />
+          <hr className="hrShort" />
           <p className="text">Javascript, HTML, CSS, mySQL, MongoDB</p>
           <p className="textHeader text">Frameworks</p>
-          <hr
-            style={{
-              height: "2px",
-              color: "black",
-              width: "30%",
-              margin: "auto",
-            }}
-          />
+          <hr className="hrShort" />
           <p className="text" style={{ paddingBottom: "15%" }}>
             Bootstrap, jQuery, Node.js, Express.js, React.js
           </p>

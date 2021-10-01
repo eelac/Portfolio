@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Scheduler from "../Images/Scheduler.png";
+import "./Project.css";
 
 export default class Card4 extends Component {
   render() {
     return (
-      <div className="card" style={{ width: "20rem" }}>
+      <div className="card">
         <img src={Scheduler} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Employee Directory</h5>

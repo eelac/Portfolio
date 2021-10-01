@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import EmployeeDirectory from "../Images/EmployeeDirectory.png";
+import "./Project.css";
 
 export default class Card3 extends Component {
   render() {
     return (
-      <div className="card" style={{ width: "20rem" }}>
+      <div className="card">
         <img src={EmployeeDirectory} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Employee Directory</h5>

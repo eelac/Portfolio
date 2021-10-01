@@ -29,7 +29,19 @@
   font-size: 1.8rem;
 }
 
-@media screen and (max-width: 1000px) {
+.hrLong,
+.hrShort {
+  height: 3px;
+  color: black;
+  border: solid 2px black;
+}
+
+.hrShort {
+  width: 30%;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
   .profile {
     display: none;
   }

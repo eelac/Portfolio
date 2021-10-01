@@ -14,14 +14,10 @@ export default function Intro({ id }) {
   return (
     <div className="backgroundIntro">
       <div className="section-content" id={id}>
-        <p className="pIntro" style={{ paddingTop: "18%" }}>
-          Hello! My name is
-        </p>
+        <p className="pIntro">Hello! My name is</p>
         <h1 className="h1Intro">Elton Lac</h1>
-        <p className="pIntro" style={{ paddingTop: "4%", paddingBottom: "5%" }}>
-          I am a full stack web developer
-        </p>
-        <div className="icons" style={{ paddingBottom: "15%" }}>
+        <p className="pInfo">I am a full stack web developer</p>
+        <div className="icons">
           <FontAwesomeIcon icon={faHtml5} />
           <FontAwesomeIcon icon={faCss3Alt} />
           <FontAwesomeIcon icon={faJsSquare} />
