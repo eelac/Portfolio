@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
+import NavbarGithub from "./NavbarGithub";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faFileAlt, faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFileAlt,
+  faEnvelopeOpenText,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default class Navbar extends Component {
   render() {
@@ -75,13 +79,7 @@ export default class Navbar extends Component {
             <FontAwesomeIcon icon={faLinkedin} className="LinkedInIcon" />
           </div>
         </div>
-        <div>
-          <div
-            onClick={() => window.open("https://github.com/eelac", "_blank")}
-          >
-            <FontAwesomeIcon icon={faGithub} className="GithubIcon" />
-          </div>
-        </div>
+        <NavbarGithub />
       </div>
     );
   }
