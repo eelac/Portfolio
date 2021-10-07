@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Button }  from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -43,13 +43,8 @@ export default class Navbar extends Component {
           </Link>
         </div>
         <div className="form-inline">
-          <div
-            onClick={() =>
-              window.open(
-                "https://docs.google.com/document/d/1rRqiVPEn4KLUxdXwWwPF807MjmMOuEHkeX_SKV3URI4/edit?usp=sharing",
-                "_blank"
-              )
-            }
+        <Button onPress={() => Linking.openURL('mailto:support@example.com') }
+      title="support@example.com" />
           >
             <FontAwesomeIcon icon={faEnvelopeOpenText} className="EmailIcon" />
           </div>
