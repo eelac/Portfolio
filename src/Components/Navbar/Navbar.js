@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import NavbarGithub from "./NavbarGithub";
-import NavbarLinkedIn from "./NavbarLinkedIn";
 import NavbarResume from "./NavbarResume";
+import NavbarLinkedIn from "./NavbarLinkedIn";
+import NavbarGithub from "./NavbarGithub";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 
