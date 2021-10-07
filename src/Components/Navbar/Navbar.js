@@ -2,11 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-scroll";
 import NavbarGithub from "./NavbarGithub";
 import NavbarLinkedIn from "./NavbarLinkedIn";
+import NavbarResume from "./NavbarResume";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFileAlt,
-  faEnvelopeOpenText,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 
 export default class Navbar extends Component {
   render() {
@@ -58,18 +56,7 @@ export default class Navbar extends Component {
             <FontAwesomeIcon icon={faEnvelopeOpenText} className="EmailIcon" />
           </div>
         </div>
-        <div>
-          <div
-            onClick={() =>
-              window.open(
-                "https://docs.google.com/document/d/1rRqiVPEn4KLUxdXwWwPF807MjmMOuEHkeX_SKV3URI4/edit?usp=sharing",
-                "_blank"
-              )
-            }
-          >
-            <FontAwesomeIcon icon={faFileAlt} className="ResumeIcon" />
-          </div>
-        </div>
+        <NavbarResume />
         <NavbarLinkedIn />
         <NavbarGithub />
       </div>
