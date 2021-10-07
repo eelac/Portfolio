@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 import NavbarGithub from "./NavbarGithub";
+import NavbarLinkedIn from "./NavbarLinkedIn";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import {
   faFileAlt,
   faEnvelopeOpenText,
@@ -70,15 +70,7 @@ export default class Navbar extends Component {
             <FontAwesomeIcon icon={faFileAlt} className="ResumeIcon" />
           </div>
         </div>
-        <div>
-          <div
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/eltonlac/", "_blank")
-            }
-          >
-            <FontAwesomeIcon icon={faLinkedin} className="LinkedInIcon" />
-          </div>
-        </div>
+        <NavbarLinkedIn />
         <NavbarGithub />
       </div>
     );
