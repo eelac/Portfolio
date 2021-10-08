@@ -44,17 +44,16 @@ export default class Navbar extends Component {
             Projects
           </Link>
         </div>
-        <div className="form-inline">
-          <div
-            onClick={() =>
-              window.open(
-                "https://docs.google.com/document/d/1rRqiVPEn4KLUxdXwWwPF807MjmMOuEHkeX_SKV3URI4/edit?usp=sharing",
-                "_blank"
-              )
-            }
-          >
-            <FontAwesomeIcon icon={faEnvelopeOpenText} className="EmailIcon" />
-          </div>
+        <div
+          className="form-inline"
+          onClick={() =>
+            window.open(
+              "https://docs.google.com/document/d/1rRqiVPEn4KLUxdXwWwPF807MjmMOuEHkeX_SKV3URI4/edit?usp=sharing",
+              "_blank"
+            )
+          }
+        >
+          <FontAwesomeIcon icon={faEnvelopeOpenText} className="EmailIcon" />
         </div>
         <NavbarResume />
         <NavbarLinkedIn />
