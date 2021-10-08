@@ -4,11 +4,11 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const NavbarGithub = () => {
   return (
-    <div>
+    
       <div onClick={() => window.open("https://github.com/eelac", "_blank")}>
         <FontAwesomeIcon icon={faGithub} className="GithubIcon" />
       </div>
-    </div>
+    
   );
 };
 

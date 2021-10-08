@@ -4,7 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const NavbarLinkedIn = () => {
   return (
-    <div>
+    
       <div
         onClick={() =>
           window.open("https://www.linkedin.com/in/eltonlac/", "_blank")
@@ -12,7 +12,7 @@ const NavbarLinkedIn = () => {
       >
         <FontAwesomeIcon icon={faLinkedin} className="LinkedInIcon" />
       </div>
-    </div>
+    
   );
 };
 

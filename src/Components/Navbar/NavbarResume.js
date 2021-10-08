@@ -4,7 +4,7 @@ import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
 
 const NavbarResume = () => {
   return (
-    <div>
+    
           <div
             onClick={() =>
               window.open(
@@ -15,7 +15,7 @@ const NavbarResume = () => {
           >
             <FontAwesomeIcon icon={faFileAlt} className="ResumeIcon" />
           </div>
-        </div>
+        
   );
 };
 
