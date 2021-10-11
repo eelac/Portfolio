@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./NavbarEmail.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 
@@ -23,9 +24,8 @@ class NavbarEmail extends Component {
     if (this.state.isActive) {
       return (
         <div className="form-inline">
-          <h1>Hello react</h1>
           <div onClick={this.handleHide}>
-            <FontAwesomeIcon icon={faEnvelopeOpenText} className="EmailIcon" />
+            <p className="email">Email: lacelton1@gmail.com</p>
           </div>
         </div>
       );
