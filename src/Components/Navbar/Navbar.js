@@ -3,8 +3,7 @@ import { Link } from "react-scroll";
 import NavbarResume from "./NavbarResume";
 import NavbarLinkedIn from "./NavbarLinkedIn";
 import NavbarGithub from "./NavbarGithub";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
+import NavbarEmail from "./NavbarEmail";
 
 export default class Navbar extends Component {
   render() {
@@ -44,17 +43,7 @@ export default class Navbar extends Component {
             Projects
           </Link>
         </div>
-        <div
-          className="form-inline"
-          onClick={() =>
-            window.open(
-              "https://docs.google.com/document/d/1rRqiVPEn4KLUxdXwWwPF807MjmMOuEHkeX_SKV3URI4/edit?usp=sharing",
-              "_blank"
-            )
-          }
-        >
-          <FontAwesomeIcon icon={faEnvelopeOpenText} className="EmailIcon" />
-        </div>
+        <NavbarEmail />
         <NavbarResume />
         <NavbarLinkedIn />
         <NavbarGithub />
