@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./NavbarEmail.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 class NavbarEmail extends Component {
   state = {
@@ -33,7 +33,7 @@ class NavbarEmail extends Component {
       return (
         <div className="form-inline">
           <div onClick={this.handleShow}>
-            <FontAwesomeIcon icon={faEnvelopeOpenText} className="EmailIcon" />
+            <FontAwesomeIcon icon={faEnvelope} className="EmailIcon" />
           </div>
         </div>
       );
