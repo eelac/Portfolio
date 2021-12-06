@@ -23,7 +23,7 @@ export default class Card4 extends Component {
             Github
           </a>
           <a
-            href="https://eelac.github.io/Homework5-Scheduler/"
+            href="https://eelac.github.io/Work-Day-Scheduler/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
