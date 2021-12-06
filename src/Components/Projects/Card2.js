@@ -24,7 +24,7 @@ export default class Card2 extends Component {
             Github
           </a>
           <a
-            href="jsoomie.github.io/word-force/"
+            href="https://jsoomie.github.io/word-force/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
