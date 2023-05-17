@@ -15,7 +15,7 @@ export default function AboutMe({ id }) {
           <p className="textHeader text">Skills</p>
           <p className="textHeader text">Languages</p>
           <hr className="hrShort" />
-          <p className="text">Javascript, HTML, CSS, mySQL, MongoDB</p>
+          <p className="text">Javascript, HTML, CSS, mySQL, MongoDB, Python</p>
           <p className="textHeader text">Frameworks</p>
           <hr className="hrShort" />
           <p className="text" style={{ paddingBottom: "15%" }}>
